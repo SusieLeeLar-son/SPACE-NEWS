@@ -6,8 +6,8 @@ Design and build a content-dense landing page in the style of a news homepage, u
 ---
 
 ## ✅ To Do
-- [ ] Finish hero section content (text + image)  
-- [ ] Add all featured articles  
+- [✅] Finish hero section content (text + image)  
+- [✅] Add all featured articles  
 - [ ] Implement all nav categories links  
 - [✅] Style the footer with current year auto-update  
 - [ ] Make site fully responsive  
@@ -41,8 +41,8 @@ Design and build a content-dense landing page in the style of a news homepage, u
 ## 👥 Who is Working On What
 | Section               | Person         | Status       |
 |-----------------------|----------------|--------------|
-| Hero Section          | Mohan          | Not Started  |
-| Featured Articles     | Mohan          | Not Started  |
+| Hero Section          | Mohan          | completed    |
+| Featured Articles     | Mohan          | completed    |
 | Navigation/Categories | Susie          | Not Started  |
 | 2 Articles            | Clay           | Not Started  |
 | 2 Articles            | Susie          | Not Started  |
