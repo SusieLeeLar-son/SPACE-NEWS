@@ -1,254 +1,480 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/brand.css" />
+    <link rel="stylesheet" href="styles/styles.css" />
+    <script src="js/navigation.js" defer></script>
+    <script src="js/footer.js" defer></script>
+    <script src="js/featured-articles.js" defer></script>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="styles/brand.css" />
-  <link rel="stylesheet" href="styles/styles.css" />
-  <script src="js/navigation.js" defer></script>
-  <script src="js/footer.js" defer></script>
-  <script src="js/featured-articles.js" defer></script>
+    <title>Daily Space News – Top Stories in Space</title>
+  </head>
 
-  <title>Daily Space News – Top Stories in Space</title>
-</head>
+  <body>
+    <header>
+      <a href="/" class="logo">Daily Space News</a>
+      <nav>
+        <a href="#">Catastrophes</a>
+        <a href="#" data-category="celebrities">Celebrities</a>
+        <a href="#" data-category="discoveries">Discoveries</a>
+        <a href="#" data-category="political">Political</a>
+        <a href="#">Geological</a>
+        <a href="#" data-category="all">All</a>
+      </nav>
+    </header>
+    <main>
+      <section id="hero">
+        <article class="hero-article" data-category="political">
+          <span class="hero-category-tag" data-category="political"
+            >Political</span
+          >
 
-<body>
-  <header>
-    <a href="/" class="logo">Daily Space News</a>
-    <nav>
-      <a href="#">Catastrophes</a>
-      <a href="#" data-category="celebrities">Celebrities</a>
-      <a href="#" data-category="discoveries">Discoveries</a>
-      <a href="#" data-category="political">Political</a>
-      <a href="#">Geological</a>
-      <a href="#" data-category="all">All</a>
-    </nav>
-  </header>
-  <main>
-    <section id="hero">
-      <article class="hero-article" data-category="political">
-        <span class="hero-category-tag" data-category="political">Political</span>
+          <div class="hero-image">
+            <img
+              src="images/featured/government.jpg"
+              alt="Hero Article Image"
+            />
+          </div>
 
-        <div class="hero-image">
-          <img src="images/featured/government.jpg" alt="Hero Article Image" />
+          <div class="hero-content">
+            <h1 class="hero-title">
+              Galactic Government Declares Emergency Summit After Mars–Neptune
+              Resource Treaty Breakdown
+            </h1>
+
+            <p class="hero-meta">
+              By <strong>Astra Velorum</strong> • Feb 1, 2108
+            </p>
+
+            <p class="hero-excerpt">
+              Tensions in the inner solar system reached a critical point this
+              morning as the long-standing Mars–Neptune Resource Treaty
+              officially collapsed. The Galactic Government announced an
+              emergency summit to prevent what experts fear could become the
+              first ever interplanetary political crisis for the galaxy. Early
+              reports suggest that disputes over helium-3 mining rights in the
+              asteroid belt triggered the sudden dissolution of the agreement,
+              leaving both colonies scrambling for diplomatic footing…
+            </p>
+
+            <div class="hero-body">
+              <p>
+                According to Council representatives, the talks will focus on
+                stabilizing trade routes through the Neptunian system and
+                renegotiating energy distribution protocols that have governed
+                interplanetary cooperation since 2100. Political analysts warn
+                that if no resolution is reached, the split could threaten fuel
+                supplies, disrupt quantum communication corridors, and
+                destabilize smaller colonies that depend on Neptunian resources.
+              </p>
+              <p>
+                Meanwhile, Mars officials publicly accused Neptune’s orbital
+                coalition of violating Uranus's shared mining borders, a claim
+                the Neptunian diplomats strongly deny. The government's
+                emergency session—set to begin within the next 48 hours—may
+                determine the direction of solar-system governance for decades
+                to come.
+              </p>
+            </div>
+
+            <div class="hero-tags">
+              <span>Interplanetary Diplomacy</span>
+              <span>Helium-3 Crisis</span>
+              <span>Galactic Council</span>
+              <span>Mars-Neptune Treaty</span>
+            </div>
+
+            <a href="#" class="hero-read-more">Continue Reading</a>
+          </div>
+        </article>
+      </section>
+
+      <section id="featured-articles">
+        <h2>Featured Articles</h2>
+
+        <div class="featured-wrapper">
+          <!-- ARTICLE 1 -->
+          <article class="featured-card" data-category="discoveries">
+            <span class="category-tag" data-category="discoveries"
+              >Discoveries</span
+            >
+            <img src="images/featured/ancient-galaxy.jpg" alt="Galaxy Image" />
+            <div class="featured-content">
+              <h3>Ancient Galaxy Found at Edge of Observable Universe</h3>
+              <p class="excerpt">
+                Astronomers have detected one of the oldest known galaxies...
+              </p>
+              <p class="meta">By Jane Carter • Jan 5, 2108</p>
+
+              <div class="featured-tags">
+                <span>Galaxy Discovery</span>
+                <span>Early Universe</span>
+                <span>Astronomy Research</span>
+              </div>
+              <a href="#">Read More</a>
+            </div>
+          </article>
+          <!-- ARTICLE 2 -->
+          <article class="featured-card" data-category="celebrities">
+            <span class="category-tag" data-category="celebrities"
+              >Celebrities</span
+            >
+            <img src="images/featured/starshower.jpg" alt="Starshower Image" />
+            <div class="featured-content">
+              <h3>
+                Celebs Get Ready for Annual Diamond Starshower Awards on Venus
+              </h3>
+              <p class="excerpt">
+                The glamorous event returns to Venus with a dazzling display
+                under the planet's rare diamond showers...
+              </p>
+              <p class="meta">By Mark Benson • Jan 7, 2108</p>
+              <div class="featured-tags">
+                <span>Venus Event</span>
+                <span>Diamond Starshower</span>
+                <span>Celebrity Awards</span>
+              </div>
+              <a href="#">Read More</a>
+            </div>
+          </article>
+          <!-- ARTICLE 3 -->
+          <article class="featured-card" data-category="celebrities">
+            <span class="category-tag" data-category="celebrities"
+              >Celebrities</span
+            >
+            <img src="images/featured/film.jpg" alt="Film Image" />
+            <div class="featured-content">
+              <h3>Filming Begins on Saturn for LOTR Space Remake</h3>
+              <p class="excerpt">
+                The epic fantasy saga is being reimagined with stunning
+                extraterrestrial visuals with Saturn's rings as the focus...
+              </p>
+              <p class="meta">By Lila Morgan • Jan 10, 2108</p>
+              <div class="featured-tags">
+                <span>Space Filming</span>
+                <span>LOTR Remake</span>
+                <span>Saturn's Rings</span>
+              </div>
+              <a href="#">Read More</a>
+            </div>
+          </article>
+          <!-- ARTICLE 4 -->
+          <article class="featured-card" data-category="discoveries">
+            <span class="category-tag" data-category="discoveries"
+              >Discoveries</span
+            >
+            <img src="images/featured/black-hole.jpg" alt="Black Hole Image" />
+            <div class="featured-content">
+              <h3>New Black Hole Image Reveals Twisting Magnetic Fields</h3>
+              <p class="excerpt">
+                Researchers capture unprecedented details around a supermassive
+                black hole that suddenly appeared near the edge of the Milky
+                Way...
+              </p>
+              <p class="meta">By Adrian Cole • Jan 12, 2108</p>
+              <div class="featured-tags">
+                <span>Black Hole</span>
+                <span>Magnetic Fields</span>
+                <span>Space Research</span>
+              </div>
+              <a href="#">Read More</a>
+            </div>
+          </article>
+
+          <!-- ARTICLE 5 -->
+          <article class="featured-card" data-category="discoveries">
+            <span class="category-tag" data-category="discoveries"
+              >Discoveries</span
+            >
+            <img src="images/featured/exoplanet.jpg" alt="Exoplanet Image" />
+            <div class="featured-content">
+              <h3>Potentially Habitable Exoplanet Found 40 LY Away</h3>
+              <p class="excerpt">
+                AI projects newly discovered world may have conditions suitable
+                for life outside of Milky Way...
+              </p>
+              <p class="meta">By Sarah Kim • Jan 15, 2108</p>
+              <div class="featured-tags">
+                <span>Exoplanet</span>
+                <span>Habitable Worlds</span>
+                <span>Astrobiology</span>
+              </div>
+              <a href="#">Read More</a>
+            </div>
+          </article>
+
+          <!-- ARTICLE 6 -->
+          <article class="featured-card" data-category="political">
+            <span class="category-tag" data-category="political"
+              >Political</span
+            >
+            <img src="images/featured/satellite.jpg" alt="Satellite in Orbit" />
+            <div class="featured-content">
+              <h3>Alien-Provided Quantum Satellite Changes Diplomacy</h3>
+              <p class="excerpt">
+                A breakthrough in alien quantum tech could reshape government
+                security for the rest of space...
+              </p>
+              <p class="meta">By Daniel Price • Jan 18, 2108</p>
+              <div class="featured-tags">
+                <span>Quantum Satellite</span>
+                <span>Interplanetary Diplomacy</span>
+                <span>Alien Tech</span>
+              </div>
+              <a href="#">Read More</a>
+            </div>
+          </article>
         </div>
+        <div class="featured-controls">
+          <button id="prev-article">◀</button>
+          <button id="next-article">▶</button>
+        </div>
+      </section>
 
-        <div class="hero-content">
-          <h1 class="hero-title">
-            Galactic Government Declares Emergency Summit After Mars–Neptune
-            Resource Treaty Breakdown
+      <!-- Clays section start -->
+      <section id="my-section" class="newspaper-section">
+        <h2 class="section-header">Latest Deep Space Highlights</h2>
+
+        <article class="newspaper-article">
+          <img
+            src="images/body-images/space-image1.jpg"
+            alt="Space image 1"
+            class="article-img"
+          />
+          <h1 class="article-title">Galactic Phenomenon Stuns Astronomers</h1>
+
+          <div class="newspaper-columns">
+            <p>
+              A mysterious light pattern has been observed beyond the outer rim
+              of our solar system. While scientists anticipate the
+              ramifications, Earthlings have begun to panic.
+            </p>
+          </div>
+
+          <aside class="meta-box">
+            <p><strong>Author:</strong> Jordan Matthews</p>
+            <p><strong>Category:</strong> Environment</p>
+            <p><strong>Published:</strong> February 6, 2024</p>
+            <p>
+              <strong>Excerpt:</strong> The city council voted overwhelmingly in
+              favor of a new transportation initiative designed to reduce
+              emissions and improve commuter options.
+            </p>
+            <p>
+              <strong>Tags:</strong> sustainability, transportation, emissions,
+              local government
+            </p>
+          </aside>
+
+          <a href="#" class="read-more">Read More →</a>
+          <hr class="article-divider" />
+        </article>
+
+        <article class="newspaper-article">
+          <img
+            src="images/body-images/space-image2.jpg"
+            alt="Space image 2"
+            class="article-img"
+          />
+          <h1 class="article-title">
+            New Exoplanet Shows Signs of Extreme Weather
           </h1>
 
-          <p class="hero-meta">
-            By <strong>Astra Velorum</strong> • Feb 1, 2108
-          </p>
-
-          <p class="hero-excerpt">
-            Tensions in the inner solar system reached a critical point this
-            morning as the long-standing Mars–Neptune Resource Treaty
-            officially collapsed. The Galactic Government announced an
-            emergency summit to prevent what experts fear could become the
-            first ever interplanetary political crisis for the galaxy. Early
-            reports suggest that disputes over helium-3 mining rights in the
-            asteroid belt triggered the sudden dissolution of the agreement,
-            leaving both colonies scrambling for diplomatic footing…
-          </p>
-
-          <div class="hero-body">
+          <div class="newspaper-columns">
             <p>
-              According to Council representatives, the talks will focus on
-              stabilizing trade routes through the Neptunian system and
-              renegotiating energy distribution protocols that have governed
-              interplanetary cooperation since 2100. Political analysts warn
-              that if no resolution is reached, the split could threaten fuel
-              supplies, disrupt quantum communication corridors, and
-              destabilize smaller colonies that depend on Neptunian resources.
+              Dubbed the future hope of our civilization, data reveals that
+              violent storms shaped Keplar 66Q's atmosphere daily.
+            </p>
+          </div>
+
+          <aside class="meta-box">
+            <p><strong>Author:</strong> Mia Chen</p>
+            <p><strong>Category:</strong> Technology</p>
+            <p><strong>Published:</strong> October 21, 2025</p>
+            <p>
+              <strong>Excerpt:</strong> A new AI tool promises to enhance the
+              speed and accuracy of emergency response teams nationwide.
             </p>
             <p>
-              Meanwhile, Mars officials publicly accused Neptune’s orbital
-              coalition of violating Uranus's shared mining borders, a claim
-              the Neptunian diplomats strongly deny. The government's
-              emergency session—set to begin within the next 48 hours—may
-              determine the direction of solar-system governance for decades
-              to come.
+              <strong>Tags:</strong> AI, emergency services, innovation,
+              startups
             </p>
-          </div>
+          </aside>
 
-          <div class="hero-tags">
-            <span>Interplanetary Diplomacy</span>
-            <span>Helium-3 Crisis</span>
-            <span>Galactic Council</span>
-            <span>Mars-Neptune Treaty</span>
-          </div>
-
-          <a href="#" class="hero-read-more">Continue Reading</a>
-        </div>
-      </article>
-    </section>
-
-    <section id="featured-articles">
-      <h2>Featured Articles</h2>
-
-      <div class="featured-wrapper">
-        <!-- ARTICLE 1 -->
-        <article class="featured-card" data-category="discoveries">
-          <span class="category-tag" data-category="discoveries">Discoveries</span>
-          <img src="images/featured/ancient-galaxy.jpg" alt="Galaxy Image" />
-          <div class="featured-content">
-            <h3>Ancient Galaxy Found at Edge of Observable Universe</h3>
-            <p class="excerpt">
-              Astronomers have detected one of the oldest known galaxies...
-            </p>
-            <p class="meta">By Jane Carter • Jan 5, 2108</p>
-
-            <div class="featured-tags">
-              <span>Galaxy Discovery</span>
-              <span>Early Universe</span>
-              <span>Astronomy Research</span>
-            </div>
-
-            <a href="#">Read More</a>
-          </div>
+          <a href="#" class="read-more">Read More →</a>
+          <hr class="article-divider" />
         </article>
 
-        <!-- ARTICLE 2 -->
-        <article class="featured-card" data-category="celebrities">
-          <span class="category-tag" data-category="celebrities">Celebrities</span>
-          <img src="images/featured/starshower.jpg" alt="Starshower Image" />
-          <div class="featured-content">
-            <h3>
-              Celebs Get Ready for Annual Diamond Starshower Awards on Venus
-            </h3>
-            <p class="excerpt">
-              The glamorous event returns to Venus with a dazzling display
-              under the planet's rare diamond showers...
+        <article class="newspaper-article">
+          <img
+            src="images/body-images/space-image3.jpg"
+            alt="Space image 3"
+            class="article-img"
+          />
+          <h1 class="article-title">Unusual Object Detected Near Jupiter</h1>
+
+          <div class="newspaper-columns">
+            <p>
+              Scientists are investigating its strange hollow structure after a
+              drone was deployed for a closer look.
             </p>
-            <p class="meta">By Mark Benson • Jan 7, 2108</p>
-            <div class="featured-tags">
-              <span>Venus Event</span>
-              <span>Diamond Starshower</span>
-              <span>Celebrity Awards</span>
-            </div>
-            <a href="#">Read More</a>
           </div>
+
+          <aside class="meta-box">
+            <p><strong>Author:</strong> Samuel Reyes</p>
+            <p><strong>Category:</strong> Education</p>
+            <p><strong>Published:</strong> July 12, 2024</p>
+            <p>
+              <strong>Excerpt:</strong> The district announced a universal
+              breakfast initiative aimed at improving student health and
+              academic performance.
+            </p>
+            <p>
+              <strong>Tags:</strong> schools, health, nutrition, community
+              programs
+            </p>
+          </aside>
+
+          <a href="#" class="read-more">Read More →</a>
+          <hr class="article-divider" />
         </article>
 
-        <!-- ARTICLE 3 -->
-        <article class="featured-card" data-category="celebrities">
-          <span class="category-tag" data-category="celebrities">Celebrities</span>
-          <img src="images/featured/film.jpg" alt="Film Image" />
-          <div class="featured-content">
-            <h3>Filming Begins on Saturn for LOTR Space Remake</h3>
-            <p class="excerpt">
-              The epic fantasy saga is being reimagined with stunning
-              extraterrestrial visuals with Saturn's rings as the focus...
+        <article class="newspaper-article">
+          <img
+            src="images/body-images/space-image4.jpg"
+            alt="Space image 4"
+            class="article-img"
+          />
+          <h1 class="article-title">
+            Satellite Captures Rare Cosmic Alignment
+          </h1>
+
+          <div class="newspaper-columns">
+            <p>
+              An unplanned but stunning photograph of five celestial bodies has
+              been captured by an independent photographer who also happens to
+              be a personal satellite enthusiast.
             </p>
-            <p class="meta">By Lila Morgan • Jan 10, 2108</p>
-            <div class="featured-tags">
-              <span>Space Filming</span>
-              <span>LOTR Remake</span>
-              <span>Saturn's Rings</span>
-            </div>
-            <a href="#">Read More</a>
           </div>
+
+          <aside class="meta-box">
+            <p><strong>Author:</strong> Aisha Patel</p>
+            <p><strong>Category:</strong> Arts & Culture</p>
+            <p><strong>Published:</strong> December 3, 2025</p>
+            <p>
+              <strong>Excerpt:</strong> After two years of construction, the
+              Grandview Theater reopened with a sold-out performance and new
+              modern amenities.
+            </p>
+            <p>
+              <strong>Tags:</strong> theater, restoration, local events,
+              heritage
+            </p>
+          </aside>
+
+          <a href="#" class="read-more">Read More →</a>
+          <hr class="article-divider" />
         </article>
 
-        <!-- ARTICLE 4 -->
-        <article class="featured-card" data-category="discoveries">
-          <span class="category-tag" data-category="discoveries">Discoveries</span>
-          <img src="images/featured/black-hole.jpg" alt="Black Hole Image" />
-          <div class="featured-content">
-            <h3>New Black Hole Image Reveals Twisting Magnetic Fields</h3>
-            <p class="excerpt">
-              Researchers capture unprecedented details around a supermassive
-              black hole that suddenly appeared near the edge of the Milky
-              Way...
+        <article class="newspaper-article">
+          <img
+            src="images/body-images/space-image5.jpg"
+            alt="Space image 5"
+            class="article-img"
+          />
+          <h1 class="article-title">Researchers Map New Nebula Formation</h1>
+
+          <div class="newspaper-columns">
+            <p>
+              A beautifully chaotic star emerges in high detail thanks to the
+              many telescopes we've cluttered space with.
             </p>
-            <p class="meta">By Adrian Cole • Jan 12, 2108</p>
-            <div class="featured-tags">
-              <span>Black Hole</span>
-              <span>Magnetic Fields</span>
-              <span>Space Research</span>
-            </div>
-            <a href="#">Read More</a>
           </div>
-        </article>
 
-        <!-- ARTICLE 5 -->
-        <article class="featured-card" data-category="discoveries">
-          <span class="category-tag" data-category="discoveries">Discoveries</span>
-          <img src="images/featured/exoplanet.jpg" alt="Exoplanet Image" />
-          <div class="featured-content">
-            <h3>Potentially Habitable Exoplanet Found 40 LY Away</h3>
-            <p class="excerpt">
-              AI projects newly discovered world may have conditions suitable
-              for life outside of Milky Way...
+          <aside class="meta-box">
+            <p><strong>Author:</strong> Daniel Okoro</p>
+            <p><strong>Category:</strong> Science</p>
+            <p><strong>Published:</strong> April 9, 2024</p>
+            <p>
+              <strong>Excerpt:</strong> Marine researchers warn that
+              accelerating ocean warming may intensify storms and harm global
+              fisheries.
             </p>
-            <p class="meta">By Sarah Kim • Jan 15, 2108</p>
-            <div class="featured-tags">
-              <span>Exoplanet</span>
-              <span>Habitable Worlds</span>
-              <span>Astrobiology</span>
-            </div>
-            <a href="#">Read More</a>
-          </div>
-        </article>
-
-        <!-- ARTICLE 6 -->
-        <article class="featured-card" data-category="political">
-          <span class="category-tag" data-category="political">Political</span>
-          <img src="images/featured/satellite.jpg" alt="Satellite in Orbit" />
-          <div class="featured-content">
-            <h3>Alien-Provided Quantum Satellite Changes Diplomacy</h3>
-            <p class="excerpt">
-              A breakthrough in alien quantum tech could reshape government
-              security for the rest of space...
+            <p>
+              <strong>Tags:</strong> climate change, oceans, research,
+              environment
             </p>
-            <p class="meta">By Daniel Price • Jan 18, 2108</p>
-            <div class="featured-tags">
-              <span>Quantum Satellite</span>
-              <span>Interplanetary Diplomacy</span>
-              <span>Alien Tech</span>
-            </div>
-            <a href="#">Read More</a>
-          </div>
+          </aside>
+
+          <a href="#" class="read-more">Read More →</a>
+          <hr class="article-divider" />
         </article>
-      </div>
+        <article class="newspaper-article">
+          <img
+            src="images/body-images/space-image6.jpg"
+            alt="Space image 2"
+            class="article-img"
+          />
+          <h1 class="article-title">
+            New Exoplanet Shows Signs of Extreme Weather
+          </h1>
 
-      <div class="featured-controls">
-        <button id="prev-article">◀</button>
-        <button id="next-article">▶</button>
-      </div>
-    </section>
+          <div class="newspaper-columns">
+            <p>
+              Dubbed the future hope of our civilization, data reveals that
+              violent storms shaped Keplar 66Q's atmosphere daily.
+            </p>
+          </div>
 
-    <section id="articles">
-      <h2>In other News</h2>
-      <article>
-        <h1>Article 1</h1>
-        <p>bit of info about the article</p>
-        <a href="#">Read More</a>
-      </article>
-      <article>
-        <h1>Article 2</h1>
-        <p>bit of info about the article</p>
-        <a href="#">Read More</a>
-      </article>
-      <article>
-        <h1>Article 3</h1>
-        <p>bit of info about the article</p>
-        <a href="#">Read More</a>
-      </article>
-      <article>
-        <h1>Article 4</h1>
-        <p>bit of info about the article</p>
-        <a href="#">Read More</a>
-      </article>
-    </section>
-  </main>
-  <footer>
-    <p>&copy; <span id="current-year"></span> Daily Space News</p>
-  </footer>
-</body>
+          <aside class="meta-box">
+            <p><strong>Author:</strong> Don Stone</p>
+            <p><strong>Category:</strong> Travel</p>
+            <p><strong>Published:</strong> October 11, 2023</p>
+            <p>
+              <strong>Excerpt:</strong> Millions plan to travel to pluto to see
+              the edge of our solar system, mass robbery spikes
+            </p>
+            <p>
+              <strong>Tags:</strong> AI, emergency services, travel, public
+              concern
+            </p>
+          </aside>
 
+          <a href="#" class="read-more">Read More →</a>
+          <hr class="article-divider" />
+        </article>
+      </section>
+
+      <!-- Clays section end -->
+
+      <section id="articles">
+        <h2>In other News</h2>
+        <article>
+          <h1>Article 1</h1>
+          <p>bit of info about the article</p>
+          <a href="#">Read More</a>
+        </article>
+        <article>
+          <h1>Article 2</h1>
+          <p>bit of info about the article</p>
+          <a href="#">Read More</a>
+        </article>
+        <article>
+          <h1>Article 3</h1>
+          <p>bit of info about the article</p>
+          <a href="#">Read More</a>
+        </article>
+        <article>
+          <h1>Article 4</h1>
+          <p>bit of info about the article</p>
+          <a href="#">Read More</a>
+        </article>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; <span id="current-year"></span> Daily Space News</p>
+    </footer>
+  </body>
 </html>
